@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Алексей Андреев](https://up.htmlacademy.ru/javascript/23/user/1805793).
-* Наставник: `Неизвестно`.
+* Наставник: [Павел Нюкало](https://htmlacademy.ru/profile/nyukalopavel).
 
 ---
 
