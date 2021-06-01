@@ -1,4 +1,4 @@
-function getRandomNumber(min, max) {
+const getRandomNumber = (min, max) => {
   min = Math.ceil(min);
   max = Math.floor(max);
   if (min >= 0 && max >=min) {
@@ -6,16 +6,16 @@ function getRandomNumber(min, max) {
   } else {
     return 'Неверное значение';
   }
-}
-
+};
 getRandomNumber();
 
-function getRandomFloat(min, max, randomFloat){
-  if(min >= 0 && max >=min ){
-    return Math.random() * (max - min) + min + randomFloat;
+const getRandomFloat = (min, max, floatNumber) => {
+  if(min >= 0 && max >=min && floatNumber >= 0){
+    const someNumber = (Math.random() * (max - min) + min).toFixed(floatNumber);
+    return someNumber;
   } else {
     return 'Неверное значение';
   }
+};
+getRandomFloat();
 
-}
-getRandomFloat().toFixed(3);
